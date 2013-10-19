@@ -29,7 +29,7 @@ With that completed, you may now use the `{{compose}}` helper in your templates:
 ```handlebars
 {{compose 'path/to/files/*.hbs'}}
   <h1>Title: {{title}}</h1>
-  {{{content}}}</p>
+  <p>{{{content}}}</p>
 {{/compose}}
 ```
 
